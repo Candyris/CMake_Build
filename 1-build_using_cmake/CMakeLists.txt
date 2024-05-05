@@ -9,3 +9,6 @@ project(Hello VERSION 1.0.0)
 
 # this will run main.cpp file
 add_executable(Hello src/main.cpp)
+
+# see in future cmake i will be using this instead 
+# add_executable(${PROJECT_NAME} main.cpp)
