@@ -1,0 +1,10 @@
+^C:\USERS\RISHA\DOCUMENTS\GITHUB\CMAKE_BUILD\2-USING_LIBRARY_IN_CMAKE\BUILD\CMAKEFILES\32BF4277B0725F442E9BCECC74D44DEA\GENERATE.STAMP.RULE
+setlocal
+"C:\Development\build libary\bin\cmake.exe" -SC:/Users/risha/Documents/GitHub/CMake_Build/2-Using_library_in_cmake -BC:/Users/risha/Documents/GitHub/CMake_Build/2-Using_library_in_cmake/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/risha/Documents/GitHub/CMake_Build/2-Using_library_in_cmake/build/Make_Library.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
